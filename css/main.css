@@ -172,9 +172,18 @@ header .social li:first-child{
 	display: block;
 	position: relative;
 	width: 100%;
-	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;	
+	height: 100vh;
+	background: url('../img/background-1.jpg') no-repeat fixed center center;	
 	background-size: cover;
+}
+
+.hero .overlay {
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0, .6);
 }
 
 .hero .caption{
@@ -189,19 +198,20 @@ header .social li:first-child{
 }
 
 .hero .caption h1{
-	color: #525252;
+	color: white;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
 	word-break: break-word;
+	margin-bottom: 10px;
 }
 
 .hero .caption p{
-	color: #6d6c6c;
+	color: rgba(255,255,255, 0.7);
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	margin: 15px 0 35px 0;
+	margin: 30px 0 35px 0;
 }
 
 #slider .caption p{
@@ -212,13 +222,12 @@ a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 40px;
-	border: 2px solid #525252;
+	border: 2px solid white;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
-
-	color: #525252;
+	color: white;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
@@ -249,8 +258,8 @@ a.app_store_btn{
 
 a.app_store_btn:hover,
 a.app_store_btn:focus{
-	border-color: #41c27d;
-	color: #41c27d!important;
+	border-color: rgba(255,255,255, 0.5);
+	color: rgba(255,255,255, 0.5) !important;
 }
 
 a.app_store_btn:hover .play_icon{
