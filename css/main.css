@@ -5,7 +5,7 @@
     - Featured on seaction
     - About section
     - App features section
-    - Testimonials section
+    - Showcase section
     - Footer
     - Responsive CSS
     
@@ -500,28 +500,28 @@ a.app_link{
 	clear: both;
 }
 
-/*		Testimonials section 		*/
+/*		Showcase section 		*/
 
-.testimonials{
+.showcase{
 	padding: 100px 0;
 }
-.testimonials h1 {
+.showcase h1 {
 	padding-bottom: 20px;
 	margin: 0;
 }
 
-.testimonials .testimonials_list{
+.showcase .showcase_list{
 	max-width: 820px;
 	margin: 0 auto;
 }
 
-.testimonials .testimonials_list blockquote{
+.showcase .showcase_list blockquote{
 	border: 0;
 	padding: 0;
 	margin: 0;
 }
 
-.testimonials .testimonials_list blockquote p{
+.showcase .showcase_list blockquote p{
 	color: #757171;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -529,24 +529,24 @@ a.app_link{
 	line-height: 36px;
 }
 
-.testimonials .testimonials_list blockquote footer:before,
-.testimonials .testimonials_list blockquote footer:after{
+.showcase .showcase_list blockquote footer:before,
+.showcase .showcase_list blockquote footer:after{
 	content: none;
 }
 
-.testimonials .testimonials_list blockquote .author,
-.testimonials .testimonials_list blockquote .job{
+.showcase .showcase_list blockquote .author,
+.showcase .showcase_list blockquote .job{
 	display: block;
 }
 
-.testimonials .testimonials_list blockquote .author{
+.showcase .showcase_list blockquote .author{
 	color: #4b4848;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 10px; 
 }
 
-.testimonials .testimonials_list blockquote .job{
+.showcase .showcase_list blockquote .job{
 	color: #6e6d6d;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
