@@ -328,10 +328,11 @@ a.app_link{
     z-index: 9999;
 }
 
-
-
-
-
+.key-benefits {
+	font-size: 26px;
+	font-weight: bold;
+	color: gray;
+}
 
 
 
@@ -501,19 +502,14 @@ a.app_link{
 	clear: both;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Testimonials section 		*/
 
 .testimonials{
 	padding: 100px 0;
+}
+.testimonials h1 {
+	padding-bottom: 20px;
+	margin: 0;
 }
 
 .testimonials .testimonials_list{
@@ -548,14 +544,15 @@ a.app_link{
 .testimonials .testimonials_list blockquote .author{
 	color: #4b4848;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	margin-bottom: 10px; 
 }
 
 .testimonials .testimonials_list blockquote .job{
 	color: #6e6d6d;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 18px;
+	margin-top: 10px;
 }
 
 .#tslider{
@@ -567,7 +564,7 @@ a.app_link{
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 10px;
 	padding: 0;
 }
 
@@ -887,4 +884,10 @@ footer .copyright a{
 	.sub_box #mc_submit{
 		margin-top: 20px;
 	}
+}
+
+.image-responsive{
+	width: auto;
+	height: 70vh;
+	box-shadow: 0px 0px 30px black;
 }
