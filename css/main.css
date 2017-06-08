@@ -435,17 +435,32 @@ a.app_link{
 
 .about .features_list ul li.stats_icon{	
 	background: url('../img/stats.png') no-repeat;
-	background-position: 3px 13px; 
+	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.settings_icon{	
 	background: url('../img/settings.png') no-repeat;
-	background-position: 3px 13px; 
+	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.save_icon{	
 	background: url('../img/save.png') no-repeat;
-	background-position: 3px 13px; 
+	background-position: 3px 10px; 
+}
+
+.about .features_list ul li.add_icon{	
+	background: url('../img/add.png') no-repeat;
+	background-position: 3px 10px; 
+}
+
+.about .features_list ul li.customize_icon{	
+	background: url('../img/customize.png') no-repeat;
+	background-position: 3px 10px; 
+}
+
+.about .features_list ul li.alert_icon{	
+	background: url('../img/alert.png') no-repeat;
+	background-position: 3px 10px; 
 }
 
 .about .features_list ul li span{
