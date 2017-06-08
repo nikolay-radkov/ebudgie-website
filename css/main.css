@@ -433,8 +433,18 @@ a.app_link{
 	background-position: 0 14px; 
 }
 
-.about .features_list ul li.loc_icon{	
-	background: url('../img/icon5.png') no-repeat;
+.about .features_list ul li.stats_icon{	
+	background: url('../img/stats.png') no-repeat;
+	background-position: 3px 13px; 
+}
+
+.about .features_list ul li.settings_icon{	
+	background: url('../img/settings.png') no-repeat;
+	background-position: 3px 13px; 
+}
+
+.about .features_list ul li.save_icon{	
+	background: url('../img/save.png') no-repeat;
 	background-position: 3px 13px; 
 }
 
@@ -481,6 +491,7 @@ a.app_link{
 }
 .showcase h1 {
 	padding-bottom: 20px;
+	color: #525151;
 	margin: 0;
 }
 
@@ -514,7 +525,7 @@ a.app_link{
 }
 
 .showcase .showcase_list blockquote .author{
-	color: #4b4848;
+	color: gray;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 10px; 
@@ -566,7 +577,7 @@ a.app_link{
 #tslider .owl-controls .owl-prev:hover,
 #tslider .owl-controls .owl-next:hover{
 	cursor: pointer;
-	background: url('../img/nav_arrow_hover.png') no-repeat;
+	opacity: 0.5;
 }
 
 #tslider .owl-controls .owl-prev:hover{
