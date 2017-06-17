@@ -173,7 +173,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: url('../img/background-1.jpg') no-repeat fixed center center;	
+	background: url('../images/background-1.jpg') no-repeat fixed center center;	
 	background-size: cover;
 }
 
@@ -244,15 +244,15 @@ a.app_store_btn{
 }
 
 .play_icon{
-	background: url('../img/play.png') no-repeat;
+	background: url('../images/play.png') no-repeat;
 }
 
 .android_icon{
-	background: url('../img/android_app_hover.png') no-repeat;
+	background: url('../images/android_app_hover.png') no-repeat;
 }
 
 .messenger_icon{
-	background: url('../img/messenger.png') no-repeat;
+	background: url('../images/messenger.png') no-repeat;
 }
 
 
@@ -322,7 +322,7 @@ a.app_link{
     height: 38px;
     top: 50px;
     right: 50px;
-    background: url('../img/close_video.png') no-repeat;
+    background: url('../images/close_video.png') no-repeat;
     z-index: 9999;
 }
 
@@ -414,52 +414,52 @@ a.app_link{
 }
 
 .about .features_list ul li.camera_icon{	
-	background: url('../img/icon1.png') no-repeat;
+	background: url('../images/icon1.png') no-repeat;
 	background-position: 0 15px; 
 }
 
 .about .features_list ul li.video_icon{	
-	background: url('../img/icon2.png') no-repeat;
+	background: url('../images/icon2.png') no-repeat;
 	background-position: 0 15px; 
 }
 
 .about .features_list ul li.eye_icon{	
-	background: url('../img/icon3.png') no-repeat;
+	background: url('../images/icon3.png') no-repeat;
 	background-position: 0 14px; 
 }
 
 .about .features_list ul li.pic_icon{	
-	background: url('../img/icon4.png') no-repeat;
+	background: url('../images/icon4.png') no-repeat;
 	background-position: 0 14px; 
 }
 
 .about .features_list ul li.stats_icon{	
-	background: url('../img/stats.png') no-repeat;
+	background: url('../images/stats.png') no-repeat;
 	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.settings_icon{	
-	background: url('../img/settings.png') no-repeat;
+	background: url('../images/settings.png') no-repeat;
 	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.save_icon{	
-	background: url('../img/save.png') no-repeat;
+	background: url('../images/save.png') no-repeat;
 	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.add_icon{	
-	background: url('../img/add.png') no-repeat;
+	background: url('../images/add.png') no-repeat;
 	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.customize_icon{	
-	background: url('../img/customize.png') no-repeat;
+	background: url('../images/customize.png') no-repeat;
 	background-position: 3px 10px; 
 }
 
 .about .features_list ul li.alert_icon{	
-	background: url('../img/alert.png') no-repeat;
+	background: url('../images/alert.png') no-repeat;
 	background-position: 3px 10px; 
 }
 
@@ -571,7 +571,7 @@ a.app_link{
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	background: url('../img/nav_arrow.png') no-repeat;
+	background: url('../images/nav_arrow.png') no-repeat;
 	text-indent: -200px;
 	overflow: hidden;
 
